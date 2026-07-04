@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Story | Six Hills Cafe</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="page-hero about-hero">
+      <nav class="navbar">
+        <a href="index.html" class="brand">
+          <img src="logo.jpeg" alt="Six Hills Cafe logo" class="brand-logo" />
+          <span>Six Hills Cafe</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <div class="nav-main-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">Our Story</a>
+            <a href="menu.html">Menu</a>
+            <a href="visit.html">Visit</a>
+          </div>
+          <div class="nav-utility-links">
+            <a href="https://gurkhachulo.com/" target="_blank" rel="noopener" class="gorkha-link">
+              <span class="gorkha-icon" aria-hidden="true">🍽️</span>
+              <span>Gorkha Chulo</span>
+            </a>
+            <a href="tel:+15550142791" class="phone-link">
+              <span class="phone-icon" aria-hidden="true">📞</span>
+              <span>+1 (555) 014-2791</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-hero-inner about-hero-inner">
+        <p class="eyebrow">Our story</p>
+        <h1>From a neighborhood idea to a place that feels like home.</h1>
+        <p class="page-hero-text">
+          Six Hills Cafe was created as a calm corner for coffee, conversation, and the small rituals that make a day feel good.
+        </p>
+        <div class="hero-badges">
+          <span>Neighborhood coffeehouse</span>
+          <span>Seasonal baking</span>
+          <span>Warm hospitality</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="about-showcase">
+        <div class="about-showcase-copy">
+          <p class="eyebrow">Why we started</p>
+          <h2>A place for slow mornings and shared stories.</h2>
+          <p>
+            We wanted to create somewhere that felt both grounding and joyful: a cafe where great coffee, thoughtful food, and genuine conversation could sit comfortably together.
+          </p>
+          <p>
+            Every detail, from the roasting choices to the warm lighting, is shaped around making guests feel welcome from the first sip to the last lingering conversation.
+          </p>
+          <a class="btn btn-dark" href="menu.html">See what we serve</a>
+        </div>
+
+        <div class="about-showcase-card">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Warm interior of Six Hills Cafe" />
+          <div class="about-showcase-card-content">
+            <p class="eyebrow">At a glance</p>
+            <h3>Thoughtful coffee, fresh bakes, and a room to linger.</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-grid">
+        <article class="page-card">
+          <p class="eyebrow">Our values</p>
+          <h2>Good hospitality, made simple.</h2>
+          <ul class="page-list">
+            <li>Specialty coffee brewed with care from morning through evening</li>
+            <li>Seasonal pastries, daily lunch plates, and comforting classics</li>
+            <li>Warm interiors, natural light, and genuine conversation</li>
+            <li>Friendly service with a personal touch that feels familiar</li>
+          </ul>
+        </article>
+
+        <article class="page-card about-quote">
+          <p class="eyebrow">From the owners</p>
+          <blockquote>
+            “We believe a cafe should feel like a pause in the day — a small, beautiful ritual where people can slow down and feel looked after.”
+          </blockquote>
+          <p>— The Six Hills team</p>
+        </article>
+      </section>
+
+      <section class="page-card about-history">
+        <div class="about-history-copy">
+          <p class="eyebrow">Six Hills village history</p>
+          <h2>A place shaped by heritage, trade, and community.</h2>
+          <p>
+            Six Hills village has long stood as a distinctive landmark in Nottinghamshire, known for its strong sense of place and its links to the wider story of the region. Its name reflects the character of the landscape, where hills and open country have shaped settlement, travel, and local identity for generations.
+          </p>
+          <p>
+            Historically, the area has been important for agriculture, movement, and community life, with villages and rural routes helping connect people across the countryside. That heritage continues to matter today, as the village remains a symbol of continuity, resilience, and local pride.
+          </p>
+          <p>
+            The importance of Six Hills lies not only in its history, but in its enduring role as a place where the past still informs the present. It is a reminder that small communities often carry the deepest stories and strongest traditions.
+          </p>
+        </div>
+
+        <div class="image-gallery">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Rolling countryside near Six Hills" />
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Rural village path and green landscape" />
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80" alt="Traditional English village scene" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Six Hills Cafe. Crafted with care.</p>
+    </footer>
+  </body>
+</html>

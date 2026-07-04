@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Six Hills Cafe</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="page-hero">
+      <nav class="navbar">
+        <a href="index.html" class="brand">
+          <img src="logo.jpeg" alt="Six Hills Cafe logo" class="brand-logo" />
+          <span>Six Hills Cafe</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <div class="nav-main-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Our Story</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="visit.html">Visit</a>
+          </div>
+          <div class="nav-utility-links">
+            <a href="https://gurkhachulo.com/" target="_blank" rel="noopener" class="gorkha-link">
+              <span class="gorkha-icon" aria-hidden="true">🍽️</span>
+              <span>Gorkha Chulo</span>
+            </a>
+            <a href="tel:+15550142791" class="phone-link">
+              <span class="phone-icon" aria-hidden="true">📞</span>
+              <span>+1 (555) 014-2791</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-hero-inner">
+        <p class="eyebrow">Menu</p>
+        <h1>Handmade comfort from morning to midday.</h1>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="card-grid three-up">
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Freshly brewed espresso in a cafe" />
+          <h3>House Espresso</h3>
+          <p>Rich, balanced and smooth from our daily roast.</p>
+          <span>$3.20</span>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80" alt="Latte art in a ceramic cup" />
+          <h3>Maple Latte</h3>
+          <p>Espresso, oat milk, and a light maple finish.</p>
+          <span>$5.50</span>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=900&q=80" alt="Toast with honey and almonds" />
+          <h3>Honey Almond Toast</h3>
+          <p>Sourdough with ricotta, honey, and toasted almonds.</p>
+          <span>$7.20</span>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Fresh wrap served on a plate" />
+          <h3>Garden Wrap</h3>
+          <p>Roasted vegetables, hummus, greens, and herbs.</p>
+          <span>$8.90</span>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Sweet pastry with glaze" />
+          <h3>Cinnamon Brioche</h3>
+          <p>Warm, buttery, and finished with citrus glaze.</p>
+          <span>$4.80</span>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=900&q=80" alt="Cold brew coffee in a glass" />
+          <h3>Iced Cold Brew</h3>
+          <p>Slow-steeped coffee with a gentle chocolate finish.</p>
+          <span>$4.60</span>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Six Hills Cafe. Crafted with care.</p>
+    </footer>
+  </body>
+</html>

@@ -3,35 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu | Six Hills Cafe</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <title>Menu &amp; Prices | Six Hills Cafe, Selston</title>
+    <meta name="description" content="Breakfasts, cobs, lunches, sandwiches, cakes, coffee, tea and our Sunday roast. See the full Six Hills Cafe menu with prices, or download the PDF." />
+    <meta name="theme-color" content="#3f4a21" />
+    <link rel="canonical" href="https://www.sixhillscafe.com/menu.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Six Hills Cafe" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:title" content="Menu &amp; Prices | Six Hills Cafe, Selston" />
+    <meta property="og:description" content="Breakfasts, cobs, lunches, sandwiches, cakes, coffee, tea and our Sunday roast. See the full Six Hills Cafe menu with prices, or download the PDF." />
+    <meta property="og:url" content="https://www.sixhillscafe.com/menu.html" />
+    <meta property="og:image" content="https://www.sixhillscafe.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Six Hills Cafe, Selston logo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
     <header class="page-hero">
-      <nav class="navbar">
+      <nav class="navbar" aria-label="Main">
         <a href="index.html" class="brand">
-          <img src="logo.jpeg" alt="Six Hills Cafe logo" class="brand-logo" />
+          <img src="logo-64.webp" srcset="logo-64.webp 1x, logo-128.webp 2x" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='logo.jpeg'" width="64" height="64" alt="Six Hills Cafe logo" class="brand-logo" />
           <span>Six Hills Cafe</span>
         </a>
-        <button class="nav-toggle" aria-label="Toggle navigation">
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
           <span></span>
           <span></span>
           <span></span>
         </button>
-        <div class="nav-links">
+        <div class="nav-links" id="site-nav">
           <div class="nav-main-links">
             <a href="index.html">Home</a>
             <a href="about.html">Our Story</a>
-            <a href="menu.html" class="active">Menu</a>
+            <a href="menu.html" class="active" aria-current="page">Menu</a>
             <a href="visit.html">Visit</a>
           </div>
           <div class="nav-utility-links">
@@ -39,9 +51,9 @@
               <span class="gorkha-icon" aria-hidden="true">🍽️</span>
               <span>Gorkha Chulo</span>
             </a>
-            <a href="tel:+15550142791" class="phone-link">
+            <a href="tel:+441773772554" class="phone-link">
               <span class="phone-icon" aria-hidden="true">📞</span>
-              <span>+1 (555) 014-2791</span>
+              <span>01773 772554</span>
             </a>
           </div>
         </div>
@@ -50,52 +62,392 @@
       <div class="page-hero-inner">
         <p class="eyebrow">Menu</p>
         <h1>Handmade comfort from morning to midday.</h1>
+        <p class="page-hero-text">Breakfast, cobs, lunch plates, cakes and hot drinks — served 8am to 2:30pm, every day.</p>
       </div>
     </header>
 
-    <main class="page-content">
-      <div class="card-grid three-up">
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Freshly brewed espresso in a cafe" />
-          <h3>House Espresso</h3>
-          <p>Rich, balanced and smooth from our daily roast.</p>
-          <span>$3.20</span>
-        </article>
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80" alt="Latte art in a ceramic cup" />
-          <h3>Maple Latte</h3>
-          <p>Espresso, oat milk, and a light maple finish.</p>
-          <span>$5.50</span>
-        </article>
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=900&q=80" alt="Toast with honey and almonds" />
-          <h3>Honey Almond Toast</h3>
-          <p>Sourdough with ricotta, honey, and toasted almonds.</p>
-          <span>$7.20</span>
-        </article>
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Fresh wrap served on a plate" />
-          <h3>Garden Wrap</h3>
-          <p>Roasted vegetables, hummus, greens, and herbs.</p>
-          <span>$8.90</span>
-        </article>
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Sweet pastry with glaze" />
-          <h3>Cinnamon Brioche</h3>
-          <p>Warm, buttery, and finished with citrus glaze.</p>
-          <span>$4.80</span>
-        </article>
-        <article class="menu-card">
-          <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=900&q=80" alt="Cold brew coffee in a glass" />
-          <h3>Iced Cold Brew</h3>
-          <p>Slow-steeped coffee with a gentle chocolate finish.</p>
-          <span>$4.60</span>
-        </article>
+    <main class="page-content" id="main" tabindex="-1">
+      <div class="menu-intro">
+        <div>Open 8am – 2:30pm, Monday to Sunday</div>
+        <a class="btn btn-primary" href="six-hills-cafe-menu.pdf" download>Download PDF menu</a>
+      </div>
+
+      <section class="allergen-notice" aria-labelledby="allergen-title">
+        <!-- CONFIRM wording and dish markers with the kitchen before launch -->
+        <h2 id="allergen-title">Allergies and dietary needs</h2>
+        <p>Many of our dishes contain, or may contain, allergens such as gluten, milk, eggs, fish, soya, nuts and sesame. Please tell a member of the team about any allergy or intolerance before you order and we will talk you through the ingredients.</p>
+        <p><span class="diet-badge">V</span> Vegetarian. Soya and oat milk are available for hot drinks. Call us on <a href="tel:+441773772554">01773 772554</a> if you would like to check anything before you visit.</p>
+      </section>
+
+      <section class="menu-feature">
+        <div>
+          <p class="eyebrow">Sunday special</p>
+          <h2>Traditional British Sunday Roast</h2>
+          <p>Served with roast potatoes, carrots, parsnip, Yorkshire pudding &amp; seasonal vegetables. (Meat may vary.)</p>
+        </div>
+        <div class="feature-price">£16.95</div>
+        <div class="menu-feature-media"><img src="images/menu-roast.webp" alt="Traditional British Sunday roast with roast potatoes, Yorkshire pudding and vegetables" width="760" height="343" decoding="async" /></div>
+      </section>
+
+      <div class="menu-grid">
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Morning</p>
+          <h2>Breakfast</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/breakfast.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Full Breakfast</h3>
+              <p>Plate with egg, Cumberland sausage, bacon, beans, hash browns, mushrooms, grilled tomatoes with a slice of toast.</p>
+            </div>
+            <span class="price">£13.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/veg-breakfast.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Full Vegetarian Breakfast <span class="diet-badge" title="Vegetarian">V<span class="sr-only"> (vegetarian)</span></span></h3>
+              <p>Plate with egg, hash browns, baked beans, grilled tomatoes, mushrooms with a slice of toast.</p>
+            </div>
+            <span class="price">£10.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/omelette.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Three Egg Omelette</h3>
+            </div>
+            <span class="price">£6.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/avo-toast.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Avocado &amp; Free Range Egg on Toast</h3>
+            </div>
+            <span class="price">£8.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/beans-toast.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Beans on Toast</h3>
+            </div>
+            <span class="price">£4.95</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Hot drinks</p>
+          <h2>Coffee</h2>
+          <p class="menu-note">Regular · Large. Extras £1.00: cinnamon, vanilla, caramel or hazelnut syrup, whipped cream, marshmallows.</p>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/latte.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Cappuccino</h3>
+            </div>
+            <span class="price">£3.50 · £4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/latte.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Latte</h3>
+            </div>
+            <span class="price">£3.50 · £4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/cup.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Espresso</h3>
+            </div>
+            <span class="price">£2.50 · £3.25</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/cup.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Americano</h3>
+            </div>
+            <span class="price">£2.50 · £3.25</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/latte.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Flat White</h3>
+            </div>
+            <span class="price">£3.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/mug.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Hot Chocolate</h3>
+            </div>
+            <span class="price">£3.50 · £4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/mug.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Mocca</h3>
+            </div>
+            <span class="price">£3.50 · £4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/iced.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Ice Latte</h3>
+            </div>
+            <span class="price">£4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/mug.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Mocha</h3>
+            </div>
+            <span class="price">£4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/cup.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Baby Chino</h3>
+            </div>
+            <span class="price">£1.50</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Quick bites</p>
+          <h2>Cobs</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/cob.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Choice of Cobs</h3>
+              <p>Available with 2 toppings.</p>
+            </div>
+            <span class="price">£5.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/cob.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Bacon, Sausage, Egg Extra</h3>
+            </div>
+            <span class="price">£1.00</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Hot drinks</p>
+          <h2>Tea</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/tea-cup.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Pot of English Breakfast Tea</h3>
+            </div>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/tea-cup.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Earl Grey Tea</h3>
+            </div>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/tea-cup.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Peppermint Tea</h3>
+            </div>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/tea-glass.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Masala Tea</h3>
+            </div>
+            <span class="price">£4.00</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Midday</p>
+          <h2>Lunch</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/salmon.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Smoked Salmon with Poached Egg</h3>
+              <p>With toasted muffin &amp; hollandaise sauce.</p>
+            </div>
+            <span class="price">£10.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/roll.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Chicken Tikka / Sheekh Kebab Roll</h3>
+              <p>Served with salad &amp; mayo.</p>
+            </div>
+            <span class="price">£7.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/hotdog.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Hot Dog with Caramelised Onion</h3>
+            </div>
+            <span class="price">£6.45</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/scampi.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Scampi</h3>
+              <p>Served with fries &amp; salad.</p>
+            </div>
+            <span class="price">£7.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/salad.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Caesar Salad with Croutons</h3>
+            </div>
+            <span class="price">£9.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/soup.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Soup of the Day</h3>
+              <p>Served with sourdough bread.</p>
+            </div>
+            <span class="price">£6.75</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Toasted</p>
+          <h2>Sandwiches / Paninis</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/panini.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Toasted Sandwich or Panini</h3>
+              <p>Choice of 2 toppings: chicken, ham, cheddar cheese, tuna, bacon, lettuce.</p>
+            </div>
+            <span class="price">£5.95</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Sweet</p>
+          <h2>Cake / Pastries</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/croissant.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Croissant</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/cake-carrot.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Carrot Cake</h3>
+            </div>
+            <span class="price">£4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/cake-lemon.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Lemon Cake</h3>
+            </div>
+            <span class="price">£4.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/cake.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Chocolate Cake</h3>
+            </div>
+            <span class="price">£4.50</span>
+          </div>
+        </section>
+        <section class="page-card menu-category">
+          
+          <p class="eyebrow">Cold</p>
+          <h2>Drinks</h2>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/coke.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Coke</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/diet-coke.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Diet Coke</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/lemonade.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Lemonade</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/juice-orange.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Orange Juice</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/juice-apple.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Apple Juice</h3>
+            </div>
+            <span class="price">£2.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/fruitshoot.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Fruit Shoots</h3>
+            </div>
+            <span class="price">£1.95</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-icon" src="images/icons/lassi-sweet.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Sweet Lassi</h3>
+            </div>
+            <span class="price">£3.50</span>
+          </div>
+          <div class="menu-item">
+            <img class="menu-thumb is-photo" src="images/thumbs/lassi.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+            <div class="menu-item-text">
+              <h3>Mango Lassi</h3>
+            </div>
+            <span class="price">£3.50</span>
+          </div>
+        </section>
       </div>
     </main>
 
-    <footer>
-      <p>© <span id="year"></span> Six Hills Cafe. Crafted with care.</p>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <h2>Six Hills Cafe</h2>
+          <p>137 Nottingham Rd, Selston<br />Nottingham NG16 6BT</p>
+          <p>Open daily 8:00 AM – 2:30 PM</p>
+        </div>
+        <div>
+          <h2>Get in touch</h2>
+          <p><a href="tel:+441773772554">01773 772554</a></p>
+          <p><a href="tel:+447533648466">07533 648466</a> (mobile)</p>
+          <p><a href="mailto:info@sixhillscafe.com">info@sixhillscafe.com</a></p>
+        </div>
+        <div>
+          <h2>Follow us</h2>
+          <div class="social-links">
+          <!-- DEMO social links: replace the URLs below with the real accounts -->
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8c-.3 0-1.3-.2-2.4-.2-2.5 0-4.1 1.5-4.1 4.2v2.7H7.6v3.3h2.8V22h3.1z"/></svg><span>Facebook</span></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3zm0 1.8A2.7 2.7 0 0 0 4.8 7.5v9a2.7 2.7 0 0 0 2.7 2.7h9a2.7 2.7 0 0 0 2.7-2.7v-9a2.7 2.7 0 0 0-2.7-2.7h-9zM12 7.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 1.8a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4zm4.9-2.6a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1z"/></svg><span>Instagram</span></a>
+        </div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© <span id="year"></span> Six Hills Cafe. Crafted with care.</span>
+        <span><a href="privacy.html">Privacy &amp; cookies</a> · <a href="six-hills-cafe-menu.pdf" download>Download PDF menu</a></span>
+      </div>
     </footer>
   </body>
 </html>

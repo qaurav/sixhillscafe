@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# DEMO domain: replace with the real one
+Sitemap: https://www.sixhillscafe.com/sitemap.xml

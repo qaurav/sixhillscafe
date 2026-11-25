@@ -1,3 +1,38 @@
+// ---------------------------------------------------------------------------
+// Special opening hours / closures notice.
+// To show a banner on every page: set enabled to true, write the message and
+// (optionally) an "until" date so it hides itself afterwards (YYYY-MM-DD).
+// ---------------------------------------------------------------------------
+const SITE_NOTICE = {
+  enabled: false,
+  message: 'Christmas opening hours: please call us on 01773 772554 to check.',
+  until: '' // e.g. '2026-12-31'
+};
+
+(function showNotice() {
+  if (!SITE_NOTICE.enabled || !SITE_NOTICE.message) return;
+  if (SITE_NOTICE.until && new Date() > new Date(SITE_NOTICE.until + 'T23:59:59')) return;
+  try {
+    if (sessionStorage.getItem('sixhills-notice') === SITE_NOTICE.message) return;
+  } catch (error) { /* storage unavailable */ }
+  const bar = document.createElement('div');
+  bar.className = 'site-notice';
+  bar.setAttribute('role', 'status');
+  const text = document.createElement('span');
+  text.textContent = SITE_NOTICE.message;
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.setAttribute('aria-label', 'Dismiss notice');
+  close.textContent = '\u00d7';
+  close.addEventListener('click', () => {
+    bar.remove();
+    try { sessionStorage.setItem('sixhills-notice', SITE_NOTICE.message); } catch (error) { /* ignore */ }
+  });
+  bar.append(text, close);
+  const skip = document.querySelector('.skip-link');
+  if (skip) skip.after(bar); else document.body.prepend(bar);
+})();
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 const year = document.getElementById('year');

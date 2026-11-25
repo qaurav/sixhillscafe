@@ -1,0 +1,312 @@
+{
+  "business": {
+    "name": "Six Hills Cafe",
+    "address": "137 Nottingham Rd, Selston, Nottingham NG16 6BT",
+    "phone": "01773 772554",
+    "mobile": "07533 648466",
+    "email": "info@sixhillscafe.com",
+    "hours": "Open daily 8:00 AM – 2:30 PM",
+    "site": "https://www.sixhillscafe.com/"
+  },
+  "feature": {
+    "title": "Traditional British Sunday Roast",
+    "price": "£16.95",
+    "text": "Served with roast potatoes, carrots, parsnip, Yorkshire pudding & seasonal vegetables. (Meat may vary.)"
+  },
+  "allergen": {
+    "title": "Allergies and dietary needs",
+    "text": "Many of our dishes contain, or may contain, allergens such as gluten, milk, eggs, fish, soya, nuts and sesame. Please tell a member of the team about any allergy or intolerance before you order and we will talk you through the ingredients. (V) = Vegetarian. Soya and oat milk are available for hot drinks."
+  },
+  "categories": [
+    {
+      "eyebrow": "Morning",
+      "title": "Breakfast",
+      "pdf": {
+        "page": 1,
+        "col": "L"
+      },
+      "items": [
+        {
+          "name": "Full Breakfast",
+          "price": "£13.95",
+          "desc": "Plate with egg, Cumberland sausage, bacon, beans, hash browns, mushrooms, grilled tomatoes with a slice of toast.",
+          "thumb": "images/thumbs/real-breakfast.webp"
+        },
+        {
+          "name": "Full Vegetarian Breakfast",
+          "price": "£10.95",
+          "desc": "Plate with egg, hash browns, baked beans, grilled tomatoes, mushrooms with a slice of toast.",
+          "thumb": "images/icons/veg-breakfast.svg",
+          "veg": true
+        },
+        {
+          "name": "Three Egg Omelette",
+          "price": "£6.95",
+          "thumb": "images/icons/omelette.svg"
+        },
+        {
+          "name": "Avocado & Free Range Egg on Toast",
+          "price": "£8.95",
+          "thumb": "images/icons/avo-toast.svg"
+        },
+        {
+          "name": "Beans on Toast",
+          "price": "£4.95",
+          "thumb": "images/icons/beans-toast.svg"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Hot drinks",
+      "title": "Coffee",
+      "note": "Regular · Large. Extras £1.00: cinnamon, vanilla, caramel or hazelnut syrup, whipped cream, marshmallows.",
+      "pdf": {
+        "page": 1,
+        "col": "R"
+      },
+      "items": [
+        {
+          "name": "Cappuccino",
+          "price": "£3.50 · £4.50",
+          "thumb": "images/thumbs/real-latte.webp"
+        },
+        {
+          "name": "Latte",
+          "price": "£3.50 · £4.50",
+          "thumb": "images/thumbs/real-latte.webp"
+        },
+        {
+          "name": "Espresso",
+          "price": "£2.50 · £3.25",
+          "thumb": "images/icons/cup.svg"
+        },
+        {
+          "name": "Americano",
+          "price": "£2.50 · £3.25",
+          "thumb": "images/icons/cup.svg"
+        },
+        {
+          "name": "Flat White",
+          "price": "£3.50",
+          "thumb": "images/thumbs/real-latte.webp"
+        },
+        {
+          "name": "Hot Chocolate",
+          "price": "£3.50 · £4.50",
+          "thumb": "images/icons/mug.svg"
+        },
+        {
+          "name": "Mocca",
+          "price": "£3.50 · £4.50",
+          "thumb": "images/icons/mug.svg"
+        },
+        {
+          "name": "Ice Latte",
+          "price": "£4.50",
+          "thumb": "images/icons/iced.svg"
+        },
+        {
+          "name": "Mocha",
+          "price": "£4.50",
+          "thumb": "images/icons/mug.svg"
+        },
+        {
+          "name": "Baby Chino",
+          "price": "£1.50",
+          "thumb": "images/icons/cup.svg"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Quick bites",
+      "title": "Cobs",
+      "pdf": {
+        "page": 1,
+        "col": "L"
+      },
+      "items": [
+        {
+          "name": "Choice of Cobs",
+          "price": "£5.95",
+          "desc": "Available with 2 toppings.",
+          "thumb": "images/thumbs/cob.webp"
+        },
+        {
+          "name": "Bacon, Sausage, Egg Extra",
+          "price": "£1.00",
+          "thumb": "images/thumbs/cob.webp"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Hot drinks",
+      "title": "Tea",
+      "pdf": {
+        "page": 1,
+        "col": "R"
+      },
+      "items": [
+        {
+          "name": "Pot of English Breakfast Tea",
+          "price": "£3.00",
+          "thumb": "images/thumbs/tea-cup.webp"
+        },
+        {
+          "name": "Earl Grey Tea",
+          "price": "£3.00",
+          "thumb": "images/thumbs/tea-cup.webp"
+        },
+        {
+          "name": "Peppermint Tea",
+          "price": "£3.00",
+          "thumb": "images/thumbs/tea-cup.webp"
+        },
+        {
+          "name": "Masala Tea",
+          "price": "£4.00",
+          "thumb": "images/thumbs/tea-glass.webp"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Midday",
+      "title": "Lunch",
+      "pdf": {
+        "page": 2,
+        "col": "L"
+      },
+      "items": [
+        {
+          "name": "Smoked Salmon with Poached Egg",
+          "price": "£10.95",
+          "desc": "With toasted muffin & hollandaise sauce.",
+          "thumb": "images/thumbs/real-salmon.webp"
+        },
+        {
+          "name": "Chicken Tikka / Sheekh Kebab Roll",
+          "price": "£7.95",
+          "desc": "Served with salad & mayo.",
+          "thumb": "images/icons/roll.svg"
+        },
+        {
+          "name": "Hot Dog with Caramelised Onion",
+          "price": "£6.45",
+          "thumb": "images/icons/hotdog.svg"
+        },
+        {
+          "name": "Scampi",
+          "price": "£7.95",
+          "desc": "Served with fries & salad.",
+          "thumb": "images/thumbs/real-scampi.webp"
+        },
+        {
+          "name": "Caesar Salad with Croutons",
+          "price": "£9.95",
+          "thumb": "images/icons/salad.svg"
+        },
+        {
+          "name": "Soup of the Day",
+          "price": "£6.75",
+          "desc": "Served with sourdough bread.",
+          "thumb": "images/thumbs/soup.webp"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Toasted",
+      "title": "Sandwiches / Paninis",
+      "pdf": {
+        "page": 2,
+        "col": "L"
+      },
+      "items": [
+        {
+          "name": "Toasted Sandwich or Panini",
+          "price": "£5.95",
+          "desc": "Choice of 2 toppings: chicken, ham, cheddar cheese, tuna, bacon, lettuce.",
+          "thumb": "images/thumbs/panini.webp"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Sweet",
+      "title": "Cake / Pastries",
+      "pdf": {
+        "page": 2,
+        "col": "R"
+      },
+      "items": [
+        {
+          "name": "Croissant",
+          "price": "£2.95",
+          "thumb": "images/icons/croissant.svg"
+        },
+        {
+          "name": "Carrot Cake",
+          "price": "£4.50",
+          "thumb": "images/thumbs/real-carrot.webp"
+        },
+        {
+          "name": "Lemon Cake",
+          "price": "£4.50",
+          "thumb": "images/icons/cake-lemon.svg"
+        },
+        {
+          "name": "Chocolate Cake",
+          "price": "£4.50",
+          "thumb": "images/thumbs/cake.webp"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Cold",
+      "title": "Drinks",
+      "pdf": {
+        "page": 2,
+        "col": "R"
+      },
+      "items": [
+        {
+          "name": "Coke",
+          "price": "£2.95",
+          "thumb": "images/icons/coke.svg"
+        },
+        {
+          "name": "Diet Coke",
+          "price": "£2.95",
+          "thumb": "images/icons/diet-coke.svg"
+        },
+        {
+          "name": "Lemonade",
+          "price": "£2.95",
+          "thumb": "images/icons/lemonade.svg"
+        },
+        {
+          "name": "Orange Juice",
+          "price": "£2.95",
+          "thumb": "images/icons/juice-orange.svg"
+        },
+        {
+          "name": "Apple Juice",
+          "price": "£2.95",
+          "thumb": "images/icons/juice-apple.svg"
+        },
+        {
+          "name": "Fruit Shoots",
+          "price": "£1.95",
+          "thumb": "images/icons/fruitshoot.svg"
+        },
+        {
+          "name": "Sweet Lassi",
+          "price": "£3.50",
+          "thumb": "images/icons/lassi-sweet.svg"
+        },
+        {
+          "name": "Mango Lassi",
+          "price": "£3.50",
+          "thumb": "images/thumbs/lassi.webp"
+        }
+      ]
+    }
+  ]
+}

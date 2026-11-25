@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility | Six Hills Cafe</title>
+    <meta name="description" content="How we try to make the Six Hills Cafe website easy to use for everyone, and how to tell us if something is difficult." />
+    <meta name="theme-color" content="#3f4a21" />
+    <link rel="canonical" href="https://www.sixhillscafe.com/accessibility.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Six Hills Cafe" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:title" content="Accessibility | Six Hills Cafe" />
+    <meta property="og:description" content="How we try to make the Six Hills Cafe website easy to use for everyone, and how to tell us if something is difficult." />
+    <meta property="og:url" content="https://www.sixhillscafe.com/accessibility.html" />
+    <meta property="og:image" content="https://www.sixhillscafe.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Six Hills Cafe, Selston logo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="preload" href="fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/playfair-display-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="page-hero">
+      <nav class="navbar" aria-label="Main">
+        <a href="index.html" class="brand">
+          <img src="logo-64.webp" srcset="logo-64.webp 1x, logo-128.webp 2x" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='logo.jpeg'" width="64" height="64" alt="Six Hills Cafe logo" class="brand-logo" />
+          <span>Six Hills Cafe</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="site-nav">
+          <div class="nav-main-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">Our Story</a>
+            <a href="menu.html">Menu</a>
+            <a href="visit.html">Visit</a>
+          </div>
+          <div class="nav-utility-links">
+            <a href="https://gurkhachulo.com/" target="_blank" rel="noopener" class="gorkha-link">
+              <span class="gorkha-icon" aria-hidden="true">🍽️</span>
+              <span>Gurkha Chulo</span>
+            </a>
+            <a href="tel:+441773772554" class="phone-link">
+              <span class="phone-icon" aria-hidden="true">📞</span>
+              <span>01773 772554</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="page-hero-inner">
+        <p class="eyebrow">Accessibility</p>
+        <h1>Accessibility statement.</h1>
+      </div>
+    </header>
+
+    <main class="page-content" id="main" tabindex="-1">
+      <article class="page-card prose">
+        <!-- DRAFT: owners to review. We claim no formal conformance because there has been no independent audit. -->
+        <h2>Our aim</h2>
+        <p>We want everyone to be able to use this website. We aim to follow the Web Content Accessibility Guidelines (WCAG 2.2, level AA), but the site has not had an independent accessibility audit, so we do not claim full conformance.</p>
+        <h2>What we have done</h2>
+        <ul>
+          <li>The site works with a keyboard, with a visible focus outline and a “skip to main content” link.</li>
+          <li>Text and background colours are checked for contrast, and the pages adapt to phones, tablets and large screens.</li>
+          <li>Photos have descriptions for screen readers, and menu icons are decorative so they are not read out.</li>
+          <li>The menu is available as normal web text, and the short video has no sound and does not play automatically.</li>
+          <li>Animations are switched off for visitors whose device asks for reduced motion.</li>
+        </ul>
+        <h2>Known limits</h2>
+        <ul>
+          <li>The downloadable PDF menu is not fully tagged for screen readers. The menu page has the same information in an accessible form.</li>
+          <li>The Google Map is provided by Google and may not be fully accessible. The address, directions link and phone numbers are on the page as text.</li>
+        </ul>
+        <h2>Tell us if something is difficult</h2>
+        <p>If you have trouble using any part of this site, or need information in another format, please call <a href="tel:+441773772554">01773 772554</a> or email <a href="mailto:info@sixhillscafe.com">info@sixhillscafe.com</a> and we will help.</p>
+        <p>Last reviewed: 24 November 2026.</p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <h2>Six Hills Cafe</h2>
+          <p>137 Nottingham Rd, Selston<br />Nottingham NG16 6BT</p>
+          <p>Open daily 8:00 AM – 2:30 PM</p>
+        </div>
+        <div>
+          <h2>Get in touch</h2>
+          <p><a href="tel:+441773772554">01773 772554</a></p>
+          <p><a href="tel:+447533648466">07533 648466</a> (mobile)</p>
+          <p><a href="mailto:info@sixhillscafe.com">info@sixhillscafe.com</a></p>
+        </div>
+        <div>
+          <h2>Follow us</h2>
+          <div class="social-links">
+          <!-- Facebook is live; Instagram link is still a demo placeholder -->
+          <a href="https://www.facebook.com/people/Six-Hills-Cafe/61596701333532/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8c-.3 0-1.3-.2-2.4-.2-2.5 0-4.1 1.5-4.1 4.2v2.7H7.6v3.3h2.8V22h3.1z"/></svg><span>Facebook</span></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9a4.5 4.5 0 0 1-4.5 4.5h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3zm0 1.8A2.7 2.7 0 0 0 4.8 7.5v9a2.7 2.7 0 0 0 2.7 2.7h9a2.7 2.7 0 0 0 2.7-2.7v-9a2.7 2.7 0 0 0-2.7-2.7h-9zM12 7.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 1.8a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4zm4.9-2.6a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1z"/></svg><span>Instagram</span></a>
+        </div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>© <span id="year"></span> Six Hills Cafe. Crafted with care.</span>
+        <span><a href="privacy.html">Privacy &amp; cookies</a> · <a href="accessibility.html">Accessibility</a> · <a href="six-hills-cafe-menu.pdf" download>Download PDF menu</a></span>
+      </div>
+    </footer>
+  </body>
+</html>
